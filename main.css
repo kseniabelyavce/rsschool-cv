@@ -1,0 +1,138 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../Montserrat-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  line-height: 25px;
+  letter-spacing: -0.022em;
+  font-size: 17px;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+main {
+ padding: 0 300px;
+}
+
+img {
+  display: none;
+}
+
+h1,
+h3 {
+  font-family: Montserrat, Courier, monospace;
+}
+
+
+h3 {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+
+body,
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+h2,
+h3 {
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  padding-top: 17px;
+  line-height: 25px;
+  font-weight: 500;
+  border-top: 0.5px solid #d6d6d6;
+  font-family: Montserrat;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  margin: 0 95px 0;
+}
+
+.name {
+  text-align: center; 
+}
+h1.name {
+  line-height: 35px;
+}
+.contact {
+  text-align: center;
+}
+
+.contact li {
+
+  list-style: none; 
+}
+
+.contact li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.project-name {
+  margin-top: 20px;
+
+}
+.profile {
+  grid-area: first;
+}
+
+.skills {
+  grid-area: second;
+}
+
+.education {
+  grid-area: first;
+  align-self: end;
+}
+
+.projects {
+  grid-area: 2 / 3 / 2 / 4;
+}
+
+.wrapper {
+  margin: 18px 0;
+}
+
+.wrapper ul {
+  margin-left: 20px;
+}
+
+.projects li {
+  list-style-type: none;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #5a5052;
+}
+
+.projects a:hover {
+  color: #333;
+}
+
+.opaq {
+  width: 65%;
+  background-color: #f2e8df;
+  opacity: 0.8;
+}
